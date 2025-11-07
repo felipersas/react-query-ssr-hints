@@ -1,0 +1,38 @@
+{
+  "name": "react-query-ssr-hints",
+  "version": "0.1.1",
+  "description": "Evite prefetch SSR desnecessário em apps React Query, usando hints de cache do client.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipersas/react-query-ssr-hints"
+  },
+  "keywords": [
+    "react-query",
+    "ssr",
+    "nextjs",
+    "cache",
+    "hydration"
+  ],
+  "author": "Felipe Marques",
+  "license": "MIT",
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^5.90.7",
+    "@types/react": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
